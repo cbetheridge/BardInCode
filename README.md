@@ -2,7 +2,8 @@ BardInCode
 ==========
 
 Representing William Shakespeare's popular works in high-level programming code
-==========
+
+- - -
 
 When new programmers are being taught their first language, the process of learning a programming language is often compared to learning a spoken or written language. The goal of this project is to test the validity of that comparison by attempting to represent the works of William Shakespeare in programming code.
 
@@ -15,17 +16,17 @@ Romeo and Juliet
 Might be represented in python code as
 
  Class Verona(Place):
-   self.occupants = []
-  
+  self.occupants = []
+
  Class SceneOne(Scene):
 
-   def Play(self):
-     self.location = Verona()
-    
-     sampson = Person(name="Sampson", house="Capulet", armed=True)
-     gregory = Person(name="Gregory", house="Capulet", armed=True)
-  
-     self.location.occupants.append([sampson, gregory])
+  def Play(self):
+   self.location = Verona()
+
+   sampson = Person(name="Sampson", house="Capulet", armed=True)
+   gregory = Person(name="Gregory", house="Capulet", armed=True)
+
+   self.location.occupants.append([sampson, gregory])
 
 We first setup that a Verona is a place that has occupants, and that a scene is a list of events that represents the story of Romeo and Juliet through state changes in the app. Note that I made no mention of swords or that Verona is a public place. That's intentional, by skipping these we are avoiding going down a rabbit hole of infinite object-oriented taxonomy, while still representing the core meaning: Sampson and Gregory enter the scene.
 
