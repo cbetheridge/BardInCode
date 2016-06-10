@@ -1,7 +1,8 @@
 THIS PROJECT IS ABANDONED
 Because it was a pretty stupid idea
 
-It also suffered from there being too many ways to approach the problem. Choice paralysis
+It also suffered from there being too many ways to approach the problem. Choice paralysis.
+--cbetheridge, June 2016
 
 BardInCode
 ==========
